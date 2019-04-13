@@ -1,0 +1,573 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ferruciof/ontologies/2019/3/untitled-ontology-46"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ferruciof/ontologies/2019/3/untitled-ontology-46">
+    <Prefix name="" IRI="http://www.semanticweb.org/ferruciof/ontologies/2019/3/untitled-ontology-46#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Exploitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conquer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eletronic_Weapons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegradationDefense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyber-Attack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dissimulate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriticalTarget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterTreatmentPlantSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DDoS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModificationDefense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CyberFrontier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horizontal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttackSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FabricationAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Special_Forces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reconnaissance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeoinformationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommunicationStrategy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DegradationAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollateralDamage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Army"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActionsOnObjectives"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrioritizationMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AHP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResourcesSelection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MissionOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C4-Center"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Installation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperationalCapability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssessmentProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DEA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cavalry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restriction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weaponization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Navy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterruptionAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PowerGridSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destroy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterruptionDefense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyber-Defense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artillery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infantry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InterceptionAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bayes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControlPoint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Delivery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FabricationDefense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DecisionTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aviation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stalk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vertical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttackDetectionSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModificationAttack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyber_Warrior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CommunicationSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupplySystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Schedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actuator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neutralize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Air_Force"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyber_Weapons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WheatherForecastSystem"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AHP"/>
+        <Class IRI="#PrioritizationMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActionsOnObjectives"/>
+        <Class IRI="#Phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actuator"/>
+        <Class IRI="#MissionOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Air_Force"/>
+        <Class IRI="#Actuator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Army"/>
+        <Class IRI="#Actuator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artillery"/>
+        <Class IRI="#Army"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssessmentProcess"/>
+        <Class IRI="#Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttackDetectionSystem"/>
+        <Class IRI="#CriticalTarget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttackSystem"/>
+        <Class IRI="#CriticalTarget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aviation"/>
+        <Class IRI="#Army"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bayes"/>
+        <Class IRI="#Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C2"/>
+        <Class IRI="#Phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C4"/>
+        <Class IRI="#MissionOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C4-Center"/>
+        <Class IRI="#CriticalTarget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Category"/>
+        <Class IRI="#MissionOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollateralDamage"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommunicationStrategy"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CommunicationSystem"/>
+        <Class IRI="#CriticalTarget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conquer"/>
+        <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControlPoint"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criteria"/>
+        <Class IRI="#ResourcesSelection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriticalTarget"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyber-Attack"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyber-Defense"/>
+        <Class IRI="#Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CyberFrontier"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyber_Warrior"/>
+        <Class IRI="#Human_Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyber_Weapons"/>
+        <Class IRI="#Technological"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DDoS"/>
+        <Class IRI="#DegradationAttack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DEA"/>
+        <Class IRI="#PrioritizationMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DecisionTree"/>
+        <Class IRI="#Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegradationAttack"/>
+        <Class IRI="#Cyber-Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DegradationDefense"/>
+        <Class IRI="#Cyber-Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Delivery"/>
+        <Class IRI="#Phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <Class IRI="#MissionOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destroy"/>
+        <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dissimulate"/>
+        <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eletronic_Weapons"/>
+        <Class IRI="#Technological"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exploitation"/>
+        <Class IRI="#Phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FabricationAttack"/>
+        <Class IRI="#Cyber-Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FabricationDefense"/>
+        <Class IRI="#Cyber-Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeoinformationSystem"/>
+        <Class IRI="#CriticalTarget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horizontal"/>
+        <Class IRI="#Criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Resource"/>
+        <Class IRI="#Actuator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Impact"/>
+        <Class IRI="#ResourcesSelection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infantry"/>
+        <Class IRI="#Army"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Installation"/>
+        <Class IRI="#Phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterceptionAttack"/>
+        <Class IRI="#Cyber-Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internal"/>
+        <Class IRI="#Criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterruptionAttack"/>
+        <Class IRI="#Cyber-Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InterruptionDefense"/>
+        <Class IRI="#Cyber-Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModificationAttack"/>
+        <Class IRI="#Cyber-Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModificationDefense"/>
+        <Class IRI="#Cyber-Defense"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Navy"/>
+        <Class IRI="#Actuator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neutralize"/>
+        <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objective"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OperationalCapability"/>
+        <Class IRI="#MissionOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personal"/>
+        <Class IRI="#Criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phase"/>
+        <Class IRI="#MissionOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan"/>
+        <Class IRI="#Phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowerGridSystem"/>
+        <Class IRI="#CriticalTarget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrioritizationMethod"/>
+        <Class IRI="#ResourcesSelection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protect"/>
+        <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reconnaissance"/>
+        <Class IRI="#Phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResourcesSelection"/>
+        <Class IRI="#Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restriction"/>
+        <Class IRI="#MissionOperation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskAnalysis"/>
+        <Class IRI="#Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Schedule"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Special_Forces"/>
+        <Class IRI="#Human_Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stalk"/>
+        <Class IRI="#Objective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupplySystem"/>
+        <Class IRI="#CriticalTarget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technological"/>
+        <Class IRI="#Actuator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vertical"/>
+        <Class IRI="#Criteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterTreatmentPlantSystem"/>
+        <Class IRI="#CriticalTarget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weaponization"/>
+        <Class IRI="#Phase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WheatherForecastSystem"/>
+        <Class IRI="#CriticalTarget"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cavalry"/>
+        <Class IRI="#Army"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#DegradationAttack"/>
+        <Class IRI="#FabricationAttack"/>
+        <Class IRI="#InterceptionAttack"/>
+        <Class IRI="#InterruptionAttack"/>
+        <Class IRI="#ModificationAttack"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DegradationAttack"/>
+        <Class IRI="#FabricationAttack"/>
+        <Class IRI="#InterruptionAttack"/>
+        <Class IRI="#ModificationAttack"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DegradationAttack"/>
+        <Class IRI="#InterruptionAttack"/>
+        <Class IRI="#ModificationAttack"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
