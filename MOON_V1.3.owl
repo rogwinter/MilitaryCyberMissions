@@ -25,9 +25,6 @@
         <Class IRI="#DegradationDefense"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cyber-Attack"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Plan"/>
     </Declaration>
     <Declaration>
@@ -35,6 +32,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#C4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CyberAttack"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dissimulate"/>
@@ -332,11 +332,11 @@
         <Class IRI="#Description"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Cyber-Attack"/>
+        <Class IRI="#Cyber-Defense"/>
         <Class IRI="#Category"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Cyber-Defense"/>
+        <Class IRI="#CyberAttack"/>
         <Class IRI="#Category"/>
     </SubClassOf>
     <SubClassOf>
@@ -365,7 +365,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DegradationAttack"/>
-        <Class IRI="#Cyber-Attack"/>
+        <Class IRI="#CyberAttack"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DegradationDefense"/>
@@ -397,7 +397,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FabricationAttack"/>
-        <Class IRI="#Cyber-Attack"/>
+        <Class IRI="#CyberAttack"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FabricationDefense"/>
@@ -429,7 +429,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InterceptionAttack"/>
-        <Class IRI="#Cyber-Attack"/>
+        <Class IRI="#CyberAttack"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Internal"/>
@@ -437,7 +437,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InterruptionAttack"/>
-        <Class IRI="#Cyber-Attack"/>
+        <Class IRI="#CyberAttack"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InterruptionDefense"/>
@@ -445,7 +445,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ModificationAttack"/>
-        <Class IRI="#Cyber-Attack"/>
+        <Class IRI="#CyberAttack"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ModificationDefense"/>
